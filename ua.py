@@ -102,10 +102,10 @@ def main():
  | |  | |/ /\ \  
  | |__| / ____ \ 
   \____/_/    \_\                                  
-  \033[0;34m This tool Created By  √  Mr Naib
+  \033[0;34m This tool Created By  √  SIXTO
   \033[0;34m Use this tool and get √ UA
-  \033[0;34m Fcabeook Name : MR NAIB
-  \033[0;34m Github : Mafyia313
+  \033[0;34m Fcabeook Name : SIXTO
+  \033[0;34m Github : SIXTO
  ________________________________,,,________________________,
 
 
