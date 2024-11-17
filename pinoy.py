@@ -253,7 +253,7 @@ def graph(ids,names,passlist):
     global loop,oks,cps
     sys.stdout.write(f'\r\r [PINOY-M1]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(cps)));sys.stdout.flush()
     sys.stdout.flush()
-    ua = 'Dalvik/1.6.0 (Linux; U; Android 4.2.2; Galaxy Nexus Build/JDQ39) [FBAN/;FBAV/A1XDL5U4;FBBV/263841039;FBAN/FBAN;FBAV/A1XDL5U4;FBBV/263841039;FBDM//*{density=2.0,width=2560,height=3840};FBLC/fr_FR;FBRV/590788881;FBCR/Realme;FBMF/Xiaomi;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/Mi_11T_Pro;FBSV/11;FBOP/8;FBCA/arm64-v8a;FBSS/;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 10; SM-A7070 Build/QP1A.190711.020) [FB4A/;FBAV/A1XDL5U4;FBBV/170261267;FBAN/FB4A;FBAV/A1XDL5U4;FBBV/170261267;FBDM//*{density=2.0,width=720,height=4096};FBLC/ru_RU;FBRV/956349932;FBCR/TECNO;FBMF/Xiaomi;FBBD/OPhone;FBPN/com.facebook.katana;FBDV/LG_Velvet;FBSV/12;FBOP/4;FBCA/armeabi;FBSS/12;]'
     try:
         fn = names.split(' ')[0]
         try:
@@ -312,7 +312,7 @@ def graph2(ids,names,passlist):
     global loop,oks,cps
     sys.stdout.write(f'\r\r [PINOY-M2]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(oks)));sys.stdout.flush()
     sys.stdout.flush()
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Infinix X669 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/Robi;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 10; CPH1945 Build/QP1A.190711.020) [FB4A/;FBAV/4Q095MQG;FBBV/522073036;FBAN/FB4A;FBAV/4Q095MQG;FBBV/522073036;FBDM//*{density=1.5,width=2560,height=3840};FBLC/es_ES;FBRV/393667924;FBCR/LG;FBMF/VIVO;FBBD/Honor;FBPN/com.facebook.katana;FBDV/Moto_G60;FBSV/12;FBOP/4;FBCA/armeabi-v7a;FBSS/18;]'
     try:
         fn = names.split(' ')[0]
         try:
@@ -371,7 +371,7 @@ def graph3(ids,names,passlist):
     global loop,oks,cps
     sys.stdout.write(f'\r\r [PINOY-M3]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(oks)));sys.stdout.flush()
     sys.stdout.flush()
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Infinix X669 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/Robi;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 10; Mi Note 10 Lite MIUI/V12.0.2.0.QFNEUXM) [FB4A/;FBAV/4Q095MQG;FBBV/663350468;FBAN/FB4A;FBAV/4Q095MQG;FBBV/663350468;FBDM//*{density=3.0,width=720,height=1920};FBLC/zh_CN;FBRV/841263922;FBCR/TECNO;FBMF/Xiaomi;FBBD/Realme;FBPN/com.facebook.katana;FBDV/Vivo_Y110s;FBSV/12;FBOP/4;FBCA/armeabi;FBSS/20;]'
     try:
         fn = names.split(' ')[0]
         try:
@@ -430,7 +430,7 @@ def graph4(ids,names,passlist):
     global loop,oks,cps
     sys.stdout.write(f'\r\r [PINOY-M4]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(oks)));sys.stdout.flush()
     sys.stdout.flush()
-    ua = 'Dalvik/2.1.0 (Linux; U; Android 12; Infinix X669 Build/SP1A.210812.016) [FBAN/Orca-Android;FBAV/454.0.0.37.109;FBPN/com.facebook.orca;FBLC/en_US;FBBV/588686349;FBCR/Robi;FBMF/INFINIX;FBBD/Infinix;FBDV/Infinix X669;FBSV/12;FBCA/arm64-v8a:null;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;]'
+    ua = 'Dalvik/2.1.0 (Linux; U; Android 10; SM-J530F Build/QP1A.190711.020) [FB4A/;FBAV/;FBBV/376302758;FBAN/FB4A;FBAV/;FBBV/376302758;FBDM//*{density=2.0,width=1440,height=2560};FBLC/it_IT;FBRV/487628844;FBCR/Realme;FBMF/Apple;FBBD/Sony;FBPN/com.facebook.katana;FBDV/Motorola_Moto_E7;FBSV/11;FBOP/8;FBCA/armeabi-v7a;FBSS/;]'
     try:
         fn = names.split(' ')[0]
         try:
