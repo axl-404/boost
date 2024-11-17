@@ -485,7 +485,7 @@ def graph4(ids,names,passlist):
     except Exception as e:
         pass
         def shoha_menu():
-    B4="S4-"
+    B4="SIXTO-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -506,7 +506,7 @@ def graph4(ids,names,passlist):
         print("                YOUR KEY IS NOT APPROVED ")
         print("               COPY AND SEND KEY TO ADMIN")
         print ("")
-        print (" YOUR KEY : "+S4+id)
+        print (" YOUR KEY : "+B4+id)
         print ("\n")
         name = input(" YOUR NAME : ")
         print ("")
