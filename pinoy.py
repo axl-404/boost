@@ -484,8 +484,7 @@ def graph4(ids,names,passlist):
         loop+=1
     except Exception as e:
         pass
-        def shoha_menu():
-    B4="SIXTO-"
+    def shoha_menu():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
