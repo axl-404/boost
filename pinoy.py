@@ -485,6 +485,7 @@ def graph4(ids,names,passlist):
     except Exception as e:
         pass
     def shoha_menu():
+    B4="SIXTO-"
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
@@ -512,6 +513,3 @@ def graph4(ids,names,passlist):
         input(" PRESS ENTER TO SEND KEY")
         os.system("xdg-open https://www.facebook.com/100094586667309")
 shoha_menu()
-#==================[END]==================#
-mmk()
-
